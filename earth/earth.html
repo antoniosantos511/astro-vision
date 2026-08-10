@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Terra | AstroVision</title>
+
+    <link rel="stylesheet" href="earth.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ==========================
+    ESTRELAS
+    ========================== -->
+
+    <div class="stars"></div>
+
+
+    <!-- ==========================
+    NAVBAR
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+
+            ASTRO<span>Vision</span>
+
+        </div>
+
+
+        <nav>
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../index.html#solar-system">
+                Sistema Solar
+            </a>
+
+            <a href="../index.html#explore">
+                Planetas
+            </a>
+
+            <a href="../login/login.html">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- ==========================
+        HERO
+        ========================== -->
+
+        <section class="planet-hero">
+
+            <div class="planet-info">
+
+                <span class="subtitle">
+                    PLANETA 03
+                </span>
+
+                <h1>
+                    Terra
+                </h1>
+
+                <p>
+                    O terceiro planeta a partir do Sol e o único
+                    mundo conhecido que abriga vida.
+                </p>
+
+                <a href="../index.html" class="back-button">
+                    ← Voltar ao Sistema Solar
+                </a>
+
+            </div>
+
+
+            <div class="planet-image" id="earthGlobe">
+
+                <div class="earth-glow"></div>
+
+                <div class="earth-shadow"></div>
+
+                <img src="../fotos/earth.png" alt="Planeta Terra" id="earthImage">
+
+                <div class="earth-highlight"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+        SOBRE A TERRA
+        ========================== -->
+
+        <section class="about">
+
+            <div class="section-title">
+
+                <span>
+                    DESCUBRA
+                </span>
+
+
+                <h2>
+                    Nosso planeta
+                </h2>
+
+
+                <p>
+
+                    A Terra é um planeta rochoso com uma atmosfera
+                    rica em nitrogênio e oxigênio e possui grandes
+                    quantidades de água em sua superfície.
+
+                </p>
+
+            </div>
+
+
+            <!-- DADOS -->
+
+            <div class="data-grid">
+
+
+                <div class="data-card">
+
+                    <span>
+                        DIÂMETRO
+                    </span>
+
+                    <strong>
+                        12.742 km
+                    </strong>
+
+                </div>
+
+
+                <div class="data-card">
+
+                    <span>
+                        DISTÂNCIA DO SOL
+                    </span>
+
+                    <strong>
+                        149,6 milhões km
+                    </strong>
+
+                </div>
+
+
+                <div class="data-card">
+
+                    <span>
+                        PERÍODO ORBITAL
+                    </span>
+
+                    <strong>
+                        365,25 dias
+                    </strong>
+
+                </div>
+
+
+                <div class="data-card">
+
+                    <span>
+                        GRAVIDADE
+                    </span>
+
+                    <strong>
+                        9,8 m/s²
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+        UM DIA PELO SISTEMA SOLAR
+        ========================== -->
+
+        <section class="day-section">
+
+            <div class="section-title">
+
+                <span>
+                    TEMPO E ROTAÇÃO
+                </span>
+
+
+                <h2>
+                    Quanto dura um dia?
+                </h2>
+
+
+                <p>
+
+                    A Terra é nossa referência. Veja quanto tempo
+                    dura um dia em cada planeta do Sistema Solar.
+
+                </p>
+
+            </div>
+
+
+            <!-- COMPARAÇÃO -->
+
+            <div class="day-comparison">
+
+
+                <!-- MERCÚRIO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot mercury-dot"></span>
+
+                        <h3>
+                            Mercúrio
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            1.408 horas
+                        </strong>
+
+                        <span>
+                            ≈ 58,7 dias terrestres
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar mercury-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- VÊNUS -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot venus-dot"></span>
+
+                        <h3>
+                            Vênus
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            5.832 horas
+                        </strong>
+
+                        <span>
+                            ≈ 243 dias terrestres
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar venus-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TERRA -->
+
+                <div class="day-card earth-day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot earth-dot"></span>
+
+                        <h3>
+                            Terra
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            24 horas
+                        </strong>
+
+                        <span>
+                            1 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar earth-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MARTE -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot mars-dot"></span>
+
+                        <h3>
+                            Marte
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            25 horas
+                        </strong>
+
+                        <span>
+                            ≈ 1,04 dias terrestres
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar mars-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- JÚPITER -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot jupiter-dot"></span>
+
+                        <h3>
+                            Júpiter
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            10 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,42 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar jupiter-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SATURNO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot saturn-dot"></span>
+
+                        <h3>
+                            Saturno
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            11 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,46 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar saturn-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- URANO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot uranus-dot"></span>
+
+                        <h3>
+                            Urano
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            17 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,71 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar uranus-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- NETUNO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot neptune-dot"></span>
+
+                        <h3>
+                            Netuno
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            16 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,67 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar neptune-bar"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DESTAQUE -->
+
+            <div class="day-highlight">
+
+                <span>
+                    🌎 COMPARAÇÃO
+                </span>
+
+
+                <h3>
+                    Enquanto você vive 1 dia na Terra...
+                </h3>
+
+
+                <p>
+
+                    Júpiter consegue completar aproximadamente
+                    <strong>2,4 dias</strong> no mesmo período.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+        CARACTERÍSTICAS
+        ========================== -->
+
+        <section class="features">
+
+            <div class="feature-text">
+
+                <span>
+                    CARACTERÍSTICAS
+                </span>
+
+
+                <h2>
+                    Um planeta único
+                </h2>
+
+
+                <p>
+
+                    Cerca de 71% da superfície da Terra é coberta
+                    por água. A presença de água líquida, uma
+                    atmosfera adequada e temperaturas favoráveis
+                    tornam nosso planeta especialmente importante
+                    para a vida.
+
+                </p>
+
+
+                <p>
+
+                    A Terra também possui um campo magnético que
+                    ajuda a proteger sua superfície contra parte
+                    da radiação e das partículas provenientes do Sol.
+
+                </p>
+
+            </div>
+
+
+            <div class="facts">
+
+
+                <div class="fact">
+
+                    <div class="icon">
+                        🌊
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Água
+                        </h3>
+
+
+                        <p>
+
+                            Grande parte da superfície terrestre
+                            é coberta por oceanos.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="fact">
+
+                    <div class="icon">
+                        🌙
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Lua
+                        </h3>
+
+
+                        <p>
+
+                            A Terra possui um satélite natural:
+                            a Lua.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="fact">
+
+                    <div class="icon">
+                        🌱
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Vida
+                        </h3>
+
+
+                        <p>
+
+                            É o único planeta conhecido onde
+                            existe vida.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+        CURIOSIDADES
+        ========================== -->
+
+        <section class="curiosities">
+
+            <span>
+                VOCÊ SABIA?
+            </span>
+
+
+            <h2>
+                Curiosidades sobre a Terra
+            </h2>
+
+
+            <div class="curiosity-grid">
+
+
+                <article>
+
+                    <h3>
+                        01
+                    </h3>
+
+                    <p>
+
+                        A Terra não é uma esfera perfeita.
+                        Sua rotação faz com que ela seja
+                        ligeiramente achatada nos polos.
+
+                    </p>
+
+                </article>
+
+
+
+                <article>
+
+                    <h3>
+                        02
+                    </h3>
+
+                    <p>
+
+                        A atmosfera terrestre é composta
+                        principalmente por nitrogênio e oxigênio.
+
+                    </p>
+
+                </article>
+
+
+
+                <article>
+
+                    <h3>
+                        03
+                    </h3>
+
+                    <p>
+
+                        A Terra completa uma volta ao redor
+                        do Sol em aproximadamente 365 dias.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==========================
+    FOOTER
+    ========================== -->
+
+    <footer>
+
+        <h2>
+            Astro<span>Sphere</span>
+        </h2>
+
+
+        <p>
+            Explore o universo. Descubra novos mundos.
+        </p>
+
+
+        <div class="footer-links">
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../index.html#solar-system">
+                Sistema Solar
+            </a>
+
+            <a href="../index.html#explore">
+                Planetas
+            </a>
+
+            <a href="../login/login.html">
+                Login
+            </a>
+
+        </div>
+
+
+        <p class="copy">
+            © 2026 AstroSphere
+        </p>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="earth.js"></script>
+
+</body>
+
+</html>

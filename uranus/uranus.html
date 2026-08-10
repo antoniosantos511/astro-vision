@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Urano | AstroVision</title>
+
+    <link rel="stylesheet" href="uranus.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <header>
+        <div class="logo">ASTRO<span>Vision</span></div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="planet-hero">
+            <div class="planet-info">
+                <span class="subtitle">PLANETA 07</span>
+                <h1>Urano</h1>
+                <p>Um gigante gelado inclinado de lado, com uma atmosfera azulada e ventos poderosos.</p>
+                <a href="../index.html" class="back-button">← Voltar ao Sistema Solar</a>
+            </div>
+
+            <div class="planet-image" id="uranusGlobe">
+                <div class="uranus-glow"></div>
+                <div class="uranus-shadow"></div>
+                <img src="../fotos/uranus.png" alt="Planeta Urano" id="uranusImage">
+                <div class="uranus-highlight"></div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="section-title">
+                <span>DESCUBRA</span>
+                <h2>O gigante gelado</h2>
+                <p>Urano é um planeta gasoso com coloração azul-verde devido ao metano e gira com o eixo quase paralelo ao plano orbital.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <span>DIÂMETRO</span>
+                    <strong>50.724 km</strong>
+                </div>
+                <div class="data-card">
+                    <span>DISTÂNCIA DO SOL</span>
+                    <strong>2.871 milhões km</strong>
+                </div>
+                <div class="data-card">
+                    <span>PERÍODO ORBITAL</span>
+                    <strong>30.687 dias</strong>
+                </div>
+                <div class="data-card">
+                    <span>GRAVIDADE</span>
+                    <strong>8,69 m/s²</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="day-section">
+            <div class="section-title">
+                <span>TEMPO E ROTAÇÃO</span>
+                <h2>Quanto dura um dia?</h2>
+                <p>Compare a duração do dia em Urano com outros planetas do Sistema Solar.</p>
+            </div>
+
+            <div class="day-comparison">
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot mercury-dot"></span><h3>Mercúrio</h3></div>
+                    <div class="day-info"><strong>1.408 horas</strong><span>≈ 58,7 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar mercury-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot venus-dot"></span><h3>Vênus</h3></div>
+                    <div class="day-info"><strong>5.832 horas</strong><span>≈ 243 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar venus-bar"></div></div>
+                </div>
+                <div class="day-card earth-day-card">
+                    <div class="planet-name"><span class="planet-dot earth-dot"></span><h3>Terra</h3></div>
+                    <div class="day-info"><strong>24 horas</strong><span>1 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar earth-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot mars-dot"></span><h3>Marte</h3></div>
+                    <div class="day-info"><strong>24,6 horas</strong><span>≈ 1,03 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar mars-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot jupiter-dot"></span><h3>Júpiter</h3></div>
+                    <div class="day-info"><strong>10 horas</strong><span>≈ 0,42 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar jupiter-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot saturn-dot"></span><h3>Saturno</h3></div>
+                    <div class="day-info"><strong>11 horas</strong><span>≈ 0,46 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar saturn-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot uranus-dot"></span><h3>Urano</h3></div>
+                    <div class="day-info"><strong>17 horas</strong><span>≈ 0,71 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar uranus-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot neptune-dot"></span><h3>Netuno</h3></div>
+                    <div class="day-info"><strong>16 horas</strong><span>≈ 0,67 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar neptune-bar"></div></div>
+                </div>
+            </div>
+
+            <div class="day-highlight">
+                <span>✨ COMPARAÇÃO</span>
+                <h3>Enquanto você vive 1 dia na Terra...</h3>
+                <p>Urano completa um dia em cerca de <strong>17 horas</strong>, o que ainda é mais curto que a maioria dos gigantes gasosos.</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-text">
+                <span>CARACTERÍSTICAS</span>
+                <h2>Um gigante gelado e inclinado</h2>
+                <p>Urano gira praticamente de lado, o que causa estações extremas ao longo de sua órbita.</p>
+                <p>Seu corpo é composto por hidrogênio, hélio e gelo de água, amônia e metano.</p>
+            </div>
+
+            <div class="facts">
+                <div class="fact">
+                    <div class="icon">❄️</div>
+                    <div><h3>Composição</h3><p>Urano é rico em compostos congelados, como água, amônia e metano.</p></div>
+                </div>
+                <div class="fact">
+                    <div class="icon">🌪️</div>
+                    <div><h3>Ventos</h3><p>Os ventos em Urano podem chegar a 900 km/h.</p></div>
+                </div>
+                <div class="fact">
+                    <div class="icon">🧊</div>
+                    <div><h3>Temperatura</h3><p>Urano é um dos planetas mais frios do Sistema Solar, com temperaturas abaixo de -200°C.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="curiosities">
+            <span>VOCÊ SABIA?</span>
+            <h2>Curiosidades sobre Urano</h2>
+            <div class="curiosity-grid">
+                <article><h3>01</h3><p>Urano foi o primeiro planeta descoberto com um telescópio em 1781.</p></article>
+                <article><h3>02</h3><p>Sua cor azul é causada pelo metano que absorve luz vermelha.</p></article>
+                <article><h3>03</h3><p>Urano tem 13 anéis tênues e pouco visíveis.</p></article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Astro<span>Vision</span></h2>
+        <p>Explore o universo. Descubra novos mundos.</p>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+        </div>
+        <p class="copy">© 2026 AstroVision</p>
+    </footer>
+
+    <script src="uranus.js"></script>
+</body>
+
+</html>

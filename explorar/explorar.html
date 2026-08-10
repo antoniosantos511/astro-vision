@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explorar Missões Espaciais</title>
+
+    <link rel="stylesheet" href="explorar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="/fotos/astro.png">
+</head>
+
+<body>
+
+    <!--ESTRELAS-->
+    <div class="stars"></div>
+
+    <!--CABEÇALHO-->
+    <header>
+
+        <a href="../index.html" class="logo">
+            Astro<span>Vision</span>
+        </a>
+
+        <nav>
+            <a href="../index.html">Início</a>
+            <a href="explorar.html" class="active">Explorar</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+    </header>
+
+
+    <!--HERO-->
+
+    <section class="explore-hero">
+
+        <span>🚀 MISSÕES ESPACIAIS</span>
+
+        <h1>
+            Explore as grandes
+            <strong>missões do espaço</strong>
+        </h1>
+
+        <p>
+            Descubra as missões que ajudaram a humanidade
+            a conhecer melhor a Lua, Marte, os planetas
+            e os mistérios do Universo.
+        </p>
+
+    </section>
+
+
+    <!--MISSÕES-->
+
+    <section class="missions">
+
+        <div class="section-title">
+
+            <h2>
+                Missões que marcaram a história
+            </h2>
+
+            <p>
+                Clique em uma missão para conhecer sua história.
+            </p>
+
+        </div>
+
+
+        <div class="mission-grid">
+
+
+            <!--APOLLO-->
+
+            <article class="mission-card">
+
+                <div class="mission-image saturn">
+                    <img src="../fotos/apol.png" alt="Imagem da missão Cassini-Huygens">
+                </div>
+
+                <div class="mission-content">
+
+                    <span class="year">
+                        1969
+                    </span>
+
+                    <h3>
+                        Apollo 11
+                    </h3>
+
+                    <p>
+                        A missão que levou os primeiros seres
+                        humanos à superfície da Lua.
+                    </p>
+
+                    <button class="mission-btn" onclick="abrirMissao('apollo')">
+                        Ver missão →
+                    </button>
+                </div>
+
+            </article>
+
+
+            <!--VOYAGER-->
+
+            <article class="mission-card">
+
+                <div class="mission-image saturn">
+                    <img src="../fotos/voyager.png" alt="Imagem da missão Cassini-Huygens">
+                </div>
+
+                <div class="mission-content">
+
+                    <span class="year">
+                        1977
+                    </span>
+
+                    <h3>
+                        Voyager
+                    </h3>
+
+                    <p>
+                        Duas sondas que viajaram pelos planetas
+                        gigantes e continuam explorando o espaço.
+                    </p>
+                    <button class="mission-btn" onclick="abrirMissao('voyager')">
+                        Ver missão →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!--CURIOSITY-->
+
+            <article class="mission-card">
+
+                <div class="mission-image saturn">
+                    <img src="../fotos/CURIOSITY.png" alt="Imagem da missão Cassini-Huygens">
+                </div>
+
+                <div class="mission-content">
+
+                    <span class="year">
+                        2012
+                    </span>
+
+                    <h3>
+                        Curiosity
+                    </h3>
+
+                    <p>
+                        O rover que explora Marte em busca de pistas
+                        sobre o passado do planeta.
+                    </p>
+
+                    <button class="mission-btn" onclick="abrirMissao('curiosity')">
+                        Ver missão →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!--JAMES WEBB-->
+
+            <article class="mission-card">
+
+                <div class="mission-image saturn">
+                    <img src="../fotos/James Webb.png" alt="Imagem da missão James Webb">
+                </div>
+
+                <div class="mission-content">
+
+                    <span class="year">
+                        2021
+                    </span>
+
+                    <h3>
+                        James Webb
+                    </h3>
+
+                    <p>
+                        Um dos maiores telescópios espaciais já
+                        construídos para observar o Universo.
+                    </p>
+                    <button class="mission-btn" onclick="abrirMissao('webb')">
+                        Ver missão →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!--MARS ROVER-->
+
+            <article class="mission-card">
+
+                <div class="mission-image saturn">
+                    <img src="../fotos/Perseverance.png" alt="Imagem da missão Cassini-Huygens">
+                </div>
+
+                <div class="mission-content">
+
+                    <span class="year">
+                        2021
+                    </span>
+
+                    <h3>
+                        Perseverance
+                    </h3>
+
+                    <p>
+                        Rover enviado a Marte para procurar sinais
+                        de vida microbiana antiga.
+                    </p>
+
+                    <button class="mission-btn" onclick="abrirMissao('perseverance')">
+                        Ver missão →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!--CASSINI-->
+
+            <article class="mission-card">
+
+
+                <div class="mission-image saturn">
+                    <img src="../fotos/Cassini-Huygens.png" alt="Imagem da missão Cassini-Huygens">
+                </div>
+
+                <div class="mission-content">
+
+                    <span class="year">
+                        1997
+                    </span>
+
+                    <h3>
+                        Cassini-Huygens
+                    </h3>
+
+                    <p>
+                        Uma missão que revelou detalhes incríveis
+                        sobre Saturno e suas luas.
+                    </p>
+
+                    <button class="mission-btn" onclick="abrirMissao('cassini')">
+                        Ver missão →
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!--RODAPÉ-->
+
+    <footer>
+
+        <h2>
+            O Universo está esperando por você 🚀
+        </h2>
+
+        <p>
+            Continue explorando e descubra novos mundos.
+        </p>
+
+    </footer>
+
+
+
+
+
+
+
+    <!--MODAL-->
+
+
+    <div id="missionModal" class="mission-modal">
+
+        <div class="modal-box">
+
+            <button class="close-modal" onclick="fecharMissao()">
+                ×
+            </button>
+
+            <div class="modal-icon" id="modalIcon">
+                🚀
+            </div>
+
+            <div class="modal-info">
+
+                <span id="modalYear">
+                    1969
+                </span>
+
+                <h2 id="modalTitle">
+                    Apollo 11
+                </h2>
+
+                <p id="modalDescription">
+                    História da missão.
+                </p>
+
+                <div class="modal-section">
+
+                    <h3>
+                        🎯 Objetivo da missão
+                    </h3>
+
+                    <p id="modalObjective">
+                        Objetivo da missão.
+                    </p>
+
+                </div>
+
+                <div class="modal-section">
+
+                    <h3>
+                        🌌 O que aconteceu?
+                    </h3>
+
+                    <p id="modalStory">
+                        História da missão.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button class="close-button" onclick="fecharMissao()">
+                Fechar
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="explorar.js"></script>
+
+
+
+</body>
+
+</html>

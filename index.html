@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AstroVision</title>
+    <link rel="icon" href="fotos/astro.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--  NAVBAR  -->
+
+    <header>
+
+        <div class="logo">
+            Astro<span>Vision</span>
+        </div>
+
+        <nav>
+
+            <a href="#">Inicio</a>
+            <a href="#solar-system">Sistema Solar</a>
+            <a href="explorar/explorar.html">Explorar</a>
+            <a href="contato/contato.html">Contato</a>
+            <a href="login/login.html">Cadastro</a>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+<section class="hero">
+
+    <div class="stars"></div>
+
+    <div class="hero-content">
+
+        <h3>Bem-vindo</h3>
+
+        <h1>
+            Explore o
+            <span>Universo</span>
+        </h1>
+
+        <p>
+            Viaje pelo Sistema Solar, descubra curiosidades,
+            aproxime os planetas e viva uma experiência
+            totalmente imersiva.
+        </p>
+
+        <a href="login/login.html" class="btn-jornada">
+            Iniciar Jornada 🚀
+        </a>
+
+    </div>
+
+</section>
+
+    <!-- SOLAR SYSTEM -->
+
+    <section id="solar-system" class="solar-system">
+
+        <h2>Sistema Solar</h2>
+
+        <p>
+            Clique em qualquer planeta para iniciar sua exploração.
+        </p>
+
+        <div class="solar-container">
+
+            <!-- Sol -->
+            <div class="sun"></div>
+
+            <!-- Órbitas -->
+            <div class="orbit orbit1"></div>
+            <div class="orbit orbit2"></div>
+            <div class="orbit orbit3"></div>
+            <div class="orbit orbit4"></div>
+            <div class="orbit orbit5"></div>
+            <div class="orbit orbit6"></div>
+            <div class="orbit orbit7"></div>
+            <div class="orbit orbit8"></div>
+
+            <!-- Planetas -->
+            <a href="Mercury/mercury.html" class="planet mercury" title="Mercúrio"></a>
+
+            <a href="Venus/venus.html" class="planet venus" title="Vênus"></a>
+
+            <a href="Earth/earth.html" class="planet earth" title="Terra"></a>
+
+            <a href="Mars/mars.html" class="planet mars" title="Marte"></a>
+
+            <a href="Jupiter/jupiter.html" class="planet jupiter" title="Júpiter"></a>
+
+            <a href="Saturn/saturn.html" class="planet saturn" title="Saturno"></a>
+
+            <a href="Uranus/uranus.html" class="planet uranus" title="Urano"></a>
+
+            <a href="Neptune/neptune.html" class="planet neptune" title="Netuno"></a>
+
+        </div>
+
+    </section>
+
+    <!--  EXPLORE  -->
+
+    <section class="explore">
+
+        <h2>Explore cada planeta</h2>
+
+        <div class="planets-grid">
+
+            <!-- Mercúrio -->
+            <div class="planet-card">
+
+                <img src="fotos/mercury.png" alt="Mercúrio">
+
+                <h3>Mercúrio</h3>
+
+                <p>O menor planeta do Sistema Solar.</p>
+
+                <a href="Mercury/mercury.html" class="btn">Explorar</a>
+
+            </div>
+
+            <!-- Terra -->
+            <div class="planet-card">
+
+                <img src="fotos/earth.png" alt="Terra">
+
+                <h3>Terra</h3>
+
+                <p>Nosso planeta azul.</p>
+
+                <a href="Earth/earth.html" class="btn">Explorar</a>
+
+            </div>
+
+            <!-- Marte -->
+            <div class="planet-card">
+
+                <img src="fotos/mar.png" alt="Marte">
+
+                <h3>Marte</h3>
+
+                <p>O famoso planeta vermelho.</p>
+
+                <a href="Mars/mars.html" class="btn">Explorar</a>
+
+            </div>
+
+            <!-- Júpiter -->
+            <div class="planet-card">
+
+                <img src="fotos/jupi.png" alt="Júpiter">
+
+                <h3>Júpiter</h3>
+
+                <p>O gigante gasoso.</p>
+
+                <a href="Jupiter/jupiter.html" class="btn">Explorar</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PARALLAX ================= -->
+
+    <section class="banner">
+
+        <div class="overlay">
+
+            <h2>
+
+                "O Universo é um livro aberto para quem deseja explorá-lo."
+
+            </h2>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>Solar Explorer</h2>
+
+        <p>
+
+            Desenvolvido para proporcionar uma experiência
+            interativa sobre o Sistema Solar.
+
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#">Home</a>
+
+            <a href="#solar-system">Sistema Solar</a>
+
+            <a href="#explore">Planetas</a>
+
+            <a href="contact.html">Contato</a>
+
+        </div>
+
+        <p class="copy">
+
+            © 2026 Solar Explorer
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

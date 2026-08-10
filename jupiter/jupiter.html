@@ -1,0 +1,493 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Júpiter | AstroVision</title>
+
+    <link rel="stylesheet" href="jupiter.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--ESTRELAS -->
+
+    <div class="stars"></div>
+
+
+    <!--NAVBAR -->
+
+    <header>
+
+        <div class="logo">
+
+            ASTRO<span>Vision</span>
+
+        </div>
+
+
+        <nav>
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../index.html#solar-system">
+                Sistema Solar
+            </a>
+
+            <a href="../index.html#explore">
+                Planetas
+            </a>
+
+            <a href="../login/login.html">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <!--HERO -->
+
+        <section class="planet-hero">
+
+            <div class="planet-info">
+
+                <span class="subtitle">
+                    PLANETA 05
+                </span>
+
+                <h1>
+                    Júpiter
+                </h1>
+
+                <p>
+                    O maior planeta do Sistema Solar, um gigante gasoso com faixas coloridas e uma
+                    poderosa tempestade conhecida como Grande Mancha Vermelha.
+                </p>
+
+                <a href="../index.html" class="back-button">
+                    ← Voltar ao Sistema Solar
+                </a>
+
+            </div>
+
+
+            <div class="planet-image" id="jupiterGlobe">
+
+                <div class="jupiter-glow"></div>
+
+                <div class="jupiter-shadow"></div>
+
+                <img src="../fotos/jupi.png" alt="Planeta Júpiter" id="jupiterImage">
+
+                <div class="jupiter-highlight"></div>
+
+            </div>
+
+        </section>
+
+
+        <!--SOBRE JÚPITER -->
+
+        <section class="about">
+
+            <div class="section-title">
+
+                <span>
+                    DESCUBRA
+                </span>
+
+                <h2>
+                    O gigante gasoso
+                </h2>
+
+                <p>
+                    Júpiter é um planeta gasoso com uma atmosfera cheia de tempestades e vórtices.
+                    Possui dezenas de luas e um intenso campo magnético.
+                </p>
+
+            </div>
+
+            <!-- DADOS -->
+
+            <div class="data-grid">
+
+                <div class="data-card">
+
+                    <span>
+                        DIÂMETRO
+                    </span>
+
+                    <strong>
+                        139.820 km
+                    </strong>
+
+                </div>
+
+                <div class="data-card">
+
+                    <span>
+                        DISTÂNCIA DO SOL
+                    </span>
+
+                    <strong>
+                        778,5 milhões km
+                    </strong>
+
+                </div>
+
+                <div class="data-card">
+
+                    <span>
+                        PERÍODO ORBITAL
+                    </span>
+
+                    <strong>
+                        4.333 dias
+                    </strong>
+
+                </div>
+
+                <div class="data-card">
+
+                    <span>
+                        GRAVIDADE
+                    </span>
+
+                    <strong>
+                        24,8 m/s²
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--UM DIA PELO SISTEMA SOLAR -->
+
+        <section class="day-section">
+
+            <div class="section-title">
+
+                <span>
+                    TEMPO E ROTAÇÃO
+                </span>
+
+                <h2>
+                    Quanto dura um dia?
+                </h2>
+
+                <p>
+                    Compare a duração do dia em Júpiter com outros planetas do Sistema Solar.
+                </p>
+
+            </div>
+
+            <!-- COMPARAÇÃO -->
+
+            <div class="day-comparison">
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot mercury-dot"></span>
+                        <h3>Mercúrio</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>1.408 horas</strong>
+                        <span>≈ 58,7 dias terrestres</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar mercury-bar"></div>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot venus-dot"></span>
+                        <h3>Vênus</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>5.832 horas</strong>
+                        <span>≈ 243 dias terrestres</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar venus-bar"></div>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot earth-dot"></span>
+                        <h3>Terra</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>24 horas</strong>
+                        <span>1 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar earth-bar"></div>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot mars-dot"></span>
+                        <h3>Marte</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>24,6 horas</strong>
+                        <span>≈ 1,03 dias terrestres</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar mars-bar"></div>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot jupiter-dot"></span>
+                        <h3>Júpiter</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>10 horas</strong>
+                        <span>≈ 0,42 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar jupiter-bar"></div>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot saturn-dot"></span>
+                        <h3>Saturno</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>11 horas</strong>
+                        <span>≈ 0,46 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar saturn-bar"></div>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot uranus-dot"></span>
+                        <h3>Urano</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>17 horas</strong>
+                        <span>≈ 0,71 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar uranus-bar"></div>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot neptune-dot"></span>
+                        <h3>Netuno</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>16 horas</strong>
+                        <span>≈ 0,67 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar neptune-bar"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="day-highlight">
+                <span>🌌 COMPARAÇÃO</span>
+                <h3>Enquanto você vive 1 dia na Terra...</h3>
+                <p>
+                    Júpiter completa um dia muito mais rápido: cerca de <strong>10 horas</strong>.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!--CARACTERÍSTICAS -->
+
+        <section class="features">
+
+            <div class="feature-text">
+
+                <span>
+                    CARACTERÍSTICAS
+                </span>
+
+                <h2>
+                    Um gigante gasoso
+                </h2>
+
+                <p>
+                    Júpiter é composto principalmente de hidrogênio e hélio, com nuvens ondulantes e
+                    tempestades maciças.
+                </p>
+
+                <p>
+                    Sua Grande Mancha Vermelha é uma tempestade maior do que a Terra e já dura
+                    centenas de anos.
+                </p>
+
+            </div>
+
+            <div class="facts">
+
+                <div class="fact">
+
+                    <div class="icon">
+                        🌪️
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Tempestades
+                        </h3>
+
+                        <p>
+                            Júpiter tem tempestades gigantescas, incluindo a Grande Mancha Vermelha.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="fact">
+
+                    <div class="icon">
+                        🪐
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Luas
+                        </h3>
+
+                        <p>
+                            Possui dezenas de luas, incluindo Ganimedes, a maior lua do Sistema Solar.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="fact">
+
+                    <div class="icon">
+                        ⚡
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Campo magnético
+                        </h3>
+
+                        <p>
+                            Júpiter tem o campo magnético mais forte de todos os planetas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--CURIOSIDADES-->
+
+        <section class="curiosities">
+
+            <span>
+                VOCÊ SABIA?
+            </span>
+
+            <h2>
+                Curiosidades sobre Júpiter
+            </h2>
+
+            <div class="curiosity-grid">
+
+                <article>
+                    <h3>01</h3>
+                    <p>Júpiter emite mais energia do que recebe do Sol.</p>
+                </article>
+
+                <article>
+                    <h3>02</h3>
+                    <p>Ganimedes é maior do que o planeta Mercúrio.</p>
+                </article>
+
+                <article>
+                    <h3>03</h3>
+                    <p>Suas faixas coloridas são causadas por diferentes camadas de nuvens e tempestades.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!--FOOTER -->
+
+    <footer>
+
+        <h2>
+            Astro<span>Vision</span>
+        </h2>
+
+        <p>
+            Explore o universo. Descubra novos mundos.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+
+        </div>
+
+        <p class="copy">© 2026 AstroVision</p>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="jupiter.js"></script>
+
+</body>
+
+</html>

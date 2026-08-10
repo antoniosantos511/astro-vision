@@ -1,0 +1,461 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marte | AstroVision</title>
+
+    <link rel="stylesheet" href="mars.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--ESTRELAS -->
+
+    <div class="stars"></div>
+
+
+    <!--NAVBAR -->
+
+    <header>
+
+        <div class="logo">
+
+            ASTRO<span>Vision</span>
+
+        </div>
+
+
+        <nav>
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../index.html#solar-system">
+                Sistema Solar
+            </a>
+
+            <a href="../index.html#explore">
+                Planetas
+            </a>
+
+            <a href="../login/login.html">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <!--HERO-->
+
+        <section class="planet-hero">
+
+            <div class="planet-info">
+
+                <span class="subtitle">
+                    PLANETA 04
+                </span>
+
+                <h1>
+                    Marte
+                </h1>
+
+                <p>
+                    O quarto planeta a partir do Sol, conhecido como o "planeta vermelho" devido
+                    ao seu solo rico em óxidos de ferro.
+                </p>
+
+                <a href="../index.html" class="back-button">
+                    ← Voltar ao Sistema Solar
+                </a>
+
+            </div>
+
+
+            <div class="planet-image" id="marsGlobe">
+
+                <div class="mars-glow"></div>
+
+                <div class="mars-shadow"></div>
+
+                <img src="../fotos/mar.png" alt="Planeta Marte" id="marsImage">
+
+                <div class="mars-highlight"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!--SOBRE MARTE -->
+
+        <section class="about">
+
+            <div class="section-title">
+
+                <span>
+                    DESCUBRA
+                </span>
+
+                <h2>
+                    Nosso vizinho vermelho
+                </h2>
+
+                <p>
+                    Marte é um planeta rochoso com calotas polares, vulcões extintos e vales profundos.
+                    Possui uma atmosfera fina e temperaturas baixas.
+                </p>
+
+            </div>
+
+            <!-- DADOS -->
+
+            <div class="data-grid">
+
+                <div class="data-card">
+
+                    <span>
+                        DIÂMETRO
+                    </span>
+
+                    <strong>
+                        6.779 km
+                    </strong>
+
+                </div>
+
+                <div class="data-card">
+
+                    <span>
+                        DISTÂNCIA DO SOL
+                    </span>
+
+                    <strong>
+                        227,9 milhões km
+                    </strong>
+
+                </div>
+
+                <div class="data-card">
+
+                    <span>
+                        PERÍODO ORBITAL
+                    </span>
+
+                    <strong>
+                        687 dias
+                    </strong>
+
+                </div>
+
+                <div class="data-card">
+
+                    <span>
+                        GRAVIDADE
+                    </span>
+
+                    <strong>
+                        3,71 m/s²
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!--UM DIA PELO SISTEMA SOLAR -->
+
+        <section class="day-section">
+
+            <div class="section-title">
+
+                <span>
+                    TEMPO E ROTAÇÃO
+                </span>
+
+                <h2>
+                    Quanto dura um dia?
+                </h2>
+
+                <p>
+                    Compare a duração do dia em Marte com outros planetas do Sistema Solar.
+                </p>
+
+            </div>
+
+            <!-- COMPARAÇÃO -->
+
+            <div class="day-comparison">
+
+                <!-- MERCÚRIO -->
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot mercury-dot"></span>
+                        <h3>Mercúrio</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>1.408 horas</strong>
+                        <span>≈ 58,7 dias terrestres</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar mercury-bar"></div>
+                    </div>
+                </div>
+
+                <!-- VÊNUS -->
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot venus-dot"></span>
+                        <h3>Vênus</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>5.832 horas</strong>
+                        <span>≈ 243 dias terrestres</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar venus-bar"></div>
+                    </div>
+                </div>
+
+                <!-- TERRA -->
+                <div class="day-card earth-day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot earth-dot"></span>
+                        <h3>Terra</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>24 horas</strong>
+                        <span>1 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar earth-bar"></div>
+                    </div>
+                </div>
+
+                <!-- MARTE -->
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot mars-dot"></span>
+                        <h3>Marte</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>24,6 horas</strong>
+                        <span>≈ 1,03 dias terrestres</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar mars-bar"></div>
+                    </div>
+                </div>
+
+                <!-- JÚPITER -->
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot jupiter-dot"></span>
+                        <h3>Júpiter</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>10 horas</strong>
+                        <span>≈ 0,42 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar jupiter-bar"></div>
+                    </div>
+                </div>
+
+                <!-- SATURNO -->
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot saturn-dot"></span>
+                        <h3>Saturno</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>11 horas</strong>
+                        <span>≈ 0,46 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar saturn-bar"></div>
+                    </div>
+                </div>
+
+                <!-- URANO -->
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot uranus-dot"></span>
+                        <h3>Urano</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>17 horas</strong>
+                        <span>≈ 0,71 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar uranus-bar"></div>
+                    </div>
+                </div>
+
+                <!-- NETUNO -->
+                <div class="day-card">
+                    <div class="planet-name">
+                        <span class="planet-dot neptune-dot"></span>
+                        <h3>Netuno</h3>
+                    </div>
+                    <div class="day-info">
+                        <strong>16 horas</strong>
+                        <span>≈ 0,67 dia terrestre</span>
+                    </div>
+                    <div class="day-bar">
+                        <div class="bar neptune-bar"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- DESTAQUE -->
+            <div class="day-highlight">
+                <span>🔴 COMPARAÇÃO</span>
+                <h3>Enquanto você vive 1 dia na Terra...</h3>
+                <p>
+                    Marte leva aproximadamente o mesmo tempo que a Terra para girar, com um dia
+                    apenas um pouco mais longo: cerca de <strong>24,6 horas</strong>.
+                </p>
+            </div>
+
+        </section>
+
+
+
+        <!--CARACTERÍSTICAS-->
+
+        <section class="features">
+
+            <div class="feature-text">
+
+                <span>
+                    CARACTERÍSTICAS
+                </span>
+
+                <h2>
+                    Um mundo em transformação
+                </h2>
+
+                <p>
+                    Marte tem vulcões gigantes como Olympus Mons e vales como Valles Marineris.
+                    Sua fina atmosfera e baixas temperaturas dificultam a presença de água líquida.
+                </p>
+
+            </div>
+
+            <div class="facts">
+
+                <div class="fact">
+                    <div class="icon">🏜️</div>
+                    <div>
+                        <h3>Solo</h3>
+                        <p>O solo marciano contém óxidos de ferro que lhe dão a cor avermelhada.</p>
+                    </div>
+                </div>
+
+                <div class="fact">
+                    <div class="icon">❄️</div>
+                    <div>
+                        <h3>Calotas</h3>
+                        <p>Marte possui calotas polares de dióxido de carbono e água congelada.</p>
+                    </div>
+                </div>
+
+                <div class="fact">
+                    <div class="icon">🛰️</div>
+                    <div>
+                        <h3>Missões</h3>
+                        <p>Numerosas sondas e rovers já exploraram a superfície marciana.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!--CURIOSIDADES-->
+
+        <section class="curiosities">
+
+            <span>VOCÊ SABIA?</span>
+
+            <h2>Curiosidades sobre Marte</h2>
+
+            <div class="curiosity-grid">
+
+                <article>
+                    <h3>01</h3>
+                    <p>Olympus Mons é o maior vulcão do Sistema Solar.</p>
+                </article>
+
+                <article>
+                    <h3>02</h3>
+                    <p>Tempestades de poeira podem cobrir todo o planeta por semanas.</p>
+                </article>
+
+                <article>
+                    <h3>03</h3>
+                    <p>Marte já pode ter tido água líquida em abundância no passado.</p>
+                </article>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer>
+
+        <h2>
+            Astro<span>Vision</span>
+        </h2>
+
+        <p>
+            Explore o universo. Descubra novos mundos.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+
+        </div>
+
+        <p class="copy">© 2026 AstroVision</p>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="mars.js"></script>
+
+</body>
+
+</html>

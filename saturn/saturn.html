@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saturno | AstroVision</title>
+
+    <link rel="stylesheet" href="saturn.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ==========================
+    ESTRELAS
+    ========================== -->
+
+    <div class="stars"></div>
+
+
+    <!-- ==========================
+    NAVBAR
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+
+            ASTRO<span>Vision</span>
+
+        </div>
+
+
+        <nav>
+
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==========================
+        HERO
+        ========================== -->
+
+        <section class="planet-hero">
+
+            <div class="planet-info">
+
+                <span class="subtitle">PLANETA 06</span>
+
+                <h1>Saturno</h1>
+
+                <p>
+                    O segundo maior planeta do Sistema Solar, famoso por seus anéis brilhantes e
+                    sua atmosfera gasosa dominada por hidrogênio e hélio.
+                </p>
+
+                <a href="../index.html" class="back-button">← Voltar ao Sistema Solar</a>
+
+            </div>
+
+            <div class="planet-image" id="saturnGlobe">
+
+                <div class="saturn-glow"></div>
+                <div class="saturn-shadow"></div>
+                <img src="../fotos/saturn.png" alt="Planeta Saturno" id="saturnImage">
+                <div class="saturn-highlight"></div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================
+        SOBRE SATURNO
+        ========================== -->
+
+        <section class="about">
+
+            <div class="section-title">
+
+                <span>DESCUBRA</span>
+                <h2>O rei dos anéis</h2>
+                <p>
+                    Saturno é conhecido pelos seus anéis espetaculares e pela grande quantidade de
+                    luas que o orbitam.
+                </p>
+
+            </div>
+
+            <div class="data-grid">
+
+                <div class="data-card">
+                    <span>DIÂMETRO</span>
+                    <strong>116.460 km</strong>
+                </div>
+
+                <div class="data-card">
+                    <span>DISTÂNCIA DO SOL</span>
+                    <strong>1.433 milhões km</strong>
+                </div>
+
+                <div class="data-card">
+                    <span>PERÍODO ORBITAL</span>
+                    <strong>10.759 dias</strong>
+                </div>
+
+                <div class="data-card">
+                    <span>GRAVIDADE</span>
+                    <strong>10,44 m/s²</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================
+        UM DIA PELO SISTEMA SOLAR
+        ========================== -->
+
+        <section class="day-section">
+
+            <div class="section-title">
+
+                <span>TEMPO E ROTAÇÃO</span>
+                <h2>Quanto dura um dia?</h2>
+                <p>Compare a duração do dia em Saturno com outros planetas do Sistema Solar.</p>
+
+            </div>
+
+            <div class="day-comparison">
+
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot mercury-dot"></span><h3>Mercúrio</h3></div>
+                    <div class="day-info"><strong>1.408 horas</strong><span>≈ 58,7 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar mercury-bar"></div></div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot venus-dot"></span><h3>Vênus</h3></div>
+                    <div class="day-info"><strong>5.832 horas</strong><span>≈ 243 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar venus-bar"></div></div>
+                </div>
+
+                <div class="day-card earth-day-card">
+                    <div class="planet-name"><span class="planet-dot earth-dot"></span><h3>Terra</h3></div>
+                    <div class="day-info"><strong>24 horas</strong><span>1 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar earth-bar"></div></div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot mars-dot"></span><h3>Marte</h3></div>
+                    <div class="day-info"><strong>24,6 horas</strong><span>≈ 1,03 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar mars-bar"></div></div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot jupiter-dot"></span><h3>Júpiter</h3></div>
+                    <div class="day-info"><strong>10 horas</strong><span>≈ 0,42 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar jupiter-bar"></div></div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot saturn-dot"></span><h3>Saturno</h3></div>
+                    <div class="day-info"><strong>11 horas</strong><span>≈ 0,46 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar saturn-bar"></div></div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot uranus-dot"></span><h3>Urano</h3></div>
+                    <div class="day-info"><strong>17 horas</strong><span>≈ 0,71 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar uranus-bar"></div></div>
+                </div>
+
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot neptune-dot"></span><h3>Netuno</h3></div>
+                    <div class="day-info"><strong>16 horas</strong><span>≈ 0,67 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar neptune-bar"></div></div>
+                </div>
+
+            </div>
+
+            <div class="day-highlight">
+                <span>✨ COMPARAÇÃO</span>
+                <h3>Enquanto você vive 1 dia na Terra...</h3>
+                <p>Saturno completa um dia em cerca de <strong>11 horas</strong>, quase metade do tempo terrestre.</p>
+            </div>
+
+        </section>
+
+        <!-- ==========================
+        CARACTERÍSTICAS
+        ========================== -->
+
+        <section class="features">
+
+            <div class="feature-text">
+                <span>CARACTERÍSTICAS</span>
+                <h2>Um gigante dos anéis</h2>
+                <p>Os anéis de Saturno são compostos por gelo, poeira e rochas, criando um espetáculo único.</p>
+                <p>Seu interior é formado principalmente por hidrogênio e hélio, com ventos muito fortes.</p>
+            </div>
+
+            <div class="facts">
+
+                <div class="fact">
+                    <div class="icon">🪐</div>
+                    <div><h3>Anéis</h3><p>Os anéis de Saturno são os mais visíveis e extensos do Sistema Solar.</p></div>
+                </div>
+
+                <div class="fact">
+                    <div class="icon">🌙</div>
+                    <div><h3>Luases</h3><p>Saturno tem mais de 80 luas conhecidas, incluindo Titã e Reia.</p></div>
+                </div>
+
+                <div class="fact">
+                    <div class="icon">🌪️</div>
+                    <div><h3>Tempestades</h3><p>Saturno apresenta tempestades gigantes e ventos que podem passar de 1.800 km/h.</p></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================
+        CURIOSIDADES
+        ========================== -->
+
+        <section class="curiosities">
+
+            <span>VOCÊ SABIA?</span>
+            <h2>Curiosidades sobre Saturno</h2>
+            <div class="curiosity-grid">
+                <article><h3>01</h3><p>Saturno poderia flutuar em água porque sua densidade é menor que a da água.</p></article>
+                <article><h3>02</h3><p>Titã tem lagos de metano e etano na sua superfície.</p></article>
+                <article><h3>03</h3><p>Os anéis de Saturno podem ter apenas alguns milhões de anos.</p></article>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Astro<span>Vision</span></h2>
+        <p>Explore o universo. Descubra novos mundos.</p>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+        </div>
+        <p class="copy">© 2026 AstroVision</p>
+    </footer>
+
+    <script src="saturn.js"></script>
+
+</body>
+
+</html>

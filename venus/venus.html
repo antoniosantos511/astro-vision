@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vênus | AstroVision</title>
+
+    <link rel="stylesheet" href="venus.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--ESTRELAS -->
+
+    <div class="stars"></div>
+
+
+    <!--NAVBAR -->
+
+    <header>
+
+        <div class="logo">
+
+            ASTRO<span>Vision</span>
+
+        </div>
+
+
+        <nav>
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../index.html#solar-system">
+                Sistema Solar
+            </a>
+
+            <a href="../index.html#explore">
+                Planetas
+            </a>
+
+            <a href="../login/login.html">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- HERO -->
+
+        <section class="planet-hero">
+
+            <div class="planet-info">
+
+                <span class="subtitle">
+                    PLANETA 02
+                </span>
+
+                <h1>
+                    Venus
+                </h1>
+
+                <p>
+                    Segundo planeta a partir do Sol e o mais quente do Sistema Solar.
+                </p>
+
+                <a href="../index.html" class="back-button">
+                    ← Voltar ao Sistema Solar
+                </a>
+
+            </div>
+
+
+            <div class="planet-image" id="earthGlobe">
+
+                <div class="earth-glow"></div>
+
+                <div class="earth-shadow"></div>
+
+                <img src="../fotos/venus.png" alt="Planeta Vênus" id="earthImage">
+
+                <div class="earth-highlight"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!--SOBRE A TERRA -->
+
+        <section class="about">
+
+            <div class="section-title">
+
+                <span>
+                    DESCUBRA
+                </span>
+
+
+                <h2>
+                    Nosso planeta
+                </h2>
+
+
+                <p>
+
+                   Sua atmosfera é extremamente densa e rica em dióxido de carbono, provocando um intenso efeito estufa. Vênus possui tamanho e composição semelhantes aos da Terra, mas suas condições são extremamente hostis.
+                </p>
+
+            </div>
+
+
+            <!-- DADOS -->
+
+            <div class="data-grid">
+
+
+                <div class="data-card">
+
+                    <span>
+                        DIÂMETRO
+                    </span>
+
+                    <strong>
+                       12.104 km
+                    </strong>
+
+                </div>
+
+
+                <div class="data-card">
+
+                    <span>
+                        DISTÂNCIA DO SOL
+                    </span>
+
+                    <strong>
+                     108,2 milhões km
+                    </strong>
+
+                </div>
+
+
+                <div class="data-card">
+
+                    <span>
+                        PERÍODO ORBITAL
+                    </span>
+
+                    <strong>
+                       224,7 dias
+                    </strong>
+
+                </div>
+
+
+                <div class="data-card">
+
+                    <span>
+                        GRAVIDADE
+                    </span>
+
+                    <strong>
+                      8,87 m/s²
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!--UM DIA PELO SISTEMA SOLAR-->
+
+        <section class="day-section">
+
+            <div class="section-title">
+
+                <span>
+                    TEMPO E ROTAÇÃO
+                </span>
+
+
+                 <strong>
+                   243 dias terrestres   
+                </strong>
+
+                <h2>
+                    Quanto dura um dia?
+                </h2>
+
+
+                <p>
+
+                    A Terra é nossa referência. Veja quanto tempo
+                    dura um dia em cada planeta do Sistema Solar.
+
+                </p>
+
+            </div>
+
+
+            <!-- COMPARAÇÃO -->
+
+            <div class="day-comparison">
+
+
+                <!-- MERCÚRIO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot mercury-dot"></span>
+
+                        <h3>
+                            Mercúrio
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            1.408 horas
+                        </strong>
+
+                        <span>
+                            ≈ 58,7 dias terrestres
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar mercury-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- VÊNUS -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot venus-dot"></span>
+
+                        <h3>
+                            Vênus
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            5.832 horas
+                        </strong>
+
+                        <span>
+                            ≈ 243 dias terrestres
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar venus-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TERRA -->
+
+                <div class="day-card earth-day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot earth-dot"></span>
+
+                        <h3>
+                            Terra
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            24 horas
+                        </strong>
+
+                        <span>
+                            1 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar earth-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MARTE -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot mars-dot"></span>
+
+                        <h3>
+                            Marte
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            25 horas
+                        </strong>
+
+                        <span>
+                            ≈ 1,04 dias terrestres
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar mars-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- JÚPITER -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot jupiter-dot"></span>
+
+                        <h3>
+                            Júpiter
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            10 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,42 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar jupiter-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SATURNO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot saturn-dot"></span>
+
+                        <h3>
+                            Saturno
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            11 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,46 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar saturn-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- URANO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot uranus-dot"></span>
+
+                        <h3>
+                            Urano
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            17 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,71 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar uranus-bar"></div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- NETUNO -->
+
+                <div class="day-card">
+
+                    <div class="planet-name">
+
+                        <span class="planet-dot neptune-dot"></span>
+
+                        <h3>
+                            Netuno
+                        </h3>
+
+                    </div>
+
+
+                    <div class="day-info">
+
+                        <strong>
+                            16 horas
+                        </strong>
+
+                        <span>
+                            ≈ 0,67 dia terrestre
+                        </span>
+
+                    </div>
+
+
+                    <div class="day-bar">
+
+                        <div class="bar neptune-bar"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DESTAQUE -->
+
+            <div class="day-highlight">
+
+                <span>
+                    🌎 COMPARAÇÃO
+                </span>
+
+
+                <h3>
+                    Enquanto você vive 1 dia na Terra...
+                </h3>
+
+
+                <p>
+
+                    Vênus precisa de aproximadamente
+                    <strong>243 dias</strong> para completar uma única rotação.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!--CARACTERÍSTICAS -->
+
+        <div class="feature-text">
+
+    <span>
+        CARACTERÍSTICAS
+    </span>
+
+    <h2>
+        O planeta mais quente
+    </h2>
+
+    <p>
+
+        Vênus é o segundo planeta a partir do Sol e possui
+        tamanho e composição semelhantes aos da Terra.
+        É o planeta mais quente do Sistema Solar devido à
+        sua atmosfera extremamente densa e ao intenso efeito
+        estufa. Sua rotação acontece no sentido contrário ao
+        da maioria dos planetas e um dia em Vênus dura mais
+        que um ano venusiano.
+
+    </p>
+
+</div>
+
+
+<div class="facts">
+
+
+    <div class="fact">
+
+        <div class="icon">
+            🔥
+        </div>
+
+        <div>
+
+            <h3>
+                Temperatura
+            </h3>
+
+            <p>
+
+                Com temperatura média de aproximadamente
+                464 °C, Vênus é o planeta mais quente
+                do Sistema Solar.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="fact">
+
+        <div class="icon">
+            🌫️
+        </div>
+
+        <div>
+
+            <h3>
+                Atmosfera
+            </h3>
+
+            <p>
+
+                Sua atmosfera é extremamente densa,
+                composta principalmente por dióxido de
+                carbono, causando um intenso efeito estufa.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="fact">
+
+        <div class="icon">
+            🔄
+        </div>
+
+        <div>
+
+            <h3>
+                Rotação retrógrada
+            </h3>
+
+            <p>
+
+                Vênus gira no sentido contrário ao da
+                maioria dos planetas e sua rotação leva
+                cerca de 243 dias terrestres.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+</section>
+
+
+
+        <!--CURIOSIDADES -->
+
+        <section class="curiosities">
+
+            <span>
+                VOCÊ SABIA?
+            </span>
+
+
+            <h2>
+                Curiosidades sobre Venus
+            </h2>
+
+
+            <div class="curiosity-grid">
+
+
+                <article>
+
+                    <h3>
+                        01
+                    </h3>
+
+                    <p>
+
+                       🔥 É o planeta mais quente do Sistema Solar — sua temperatura média chega a cerca de 464 °C, mesmo Mercúrio estando mais perto do Sol.
+
+                    </p>
+
+                </article>
+
+
+
+                <article>
+
+                    <h3>
+                        02
+                    </h3>
+
+                    <p>
+
+                       🔄 Gira ao contrário — Vênus possui rotação retrógrada, então o Sol nasceria no oeste e se poria no leste.
+
+                    </p>
+
+                </article>
+
+
+
+                <article>
+
+                    <h3>
+                        03
+                    </h3>
+
+                    <p>
+
+                      ⏳ Um dia é maior que um ano — Vênus leva aproximadamente 243 dias terrestres para completar uma rotação, enquanto seu ano dura apenas 224,7 dias.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!--FOOTER-->
+
+    <footer>
+
+        <h2>
+            Astro<span>Vision</span>
+        </h2>
+
+
+        <p>
+            Explore o universo. Descubra novos mundos.
+        </p>
+
+
+        <div class="footer-links">
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../index.html#solar-system">
+                Sistema Solar
+            </a>
+
+            <a href="../index.html#explore">
+                Planetas
+            </a>
+
+            <a href="../login/login.html">
+                Login
+            </a>
+
+        </div>
+
+
+        <p class="copy">
+            © 2026 AstroSphere
+        </p>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="earth.js"></script>
+
+</body>
+
+</html>

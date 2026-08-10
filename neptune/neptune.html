@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netuno | AstroVision</title>
+
+    <link rel="stylesheet" href="neptune.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <header>
+        <div class="logo">ASTRO<span>Vision</span></div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="planet-hero">
+            <div class="planet-info">
+                <span class="subtitle">PLANETA 08</span>
+                <h1>Netuno</h1>
+                <p>O mais distante dos planetas gasosos do Sistema Solar, com ventos violentos e uma cor azul intensa.</p>
+                <a href="../index.html" class="back-button">← Voltar ao Sistema Solar</a>
+            </div>
+
+            <div class="planet-image" id="neptuneGlobe">
+                <div class="neptune-glow"></div>
+                <div class="neptune-shadow"></div>
+                <img src="../fotos/neptune.png" alt="Planeta Netuno" id="neptuneImage">
+                <div class="neptune-highlight"></div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="section-title">
+                <span>DESCUBRA</span>
+                <h2>O mundo azul profundo</h2>
+                <p>Netuno é conhecido por seus ventos extremos e atmosfera rica em metano, que lhe dão a tonalidade azul vibrante.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <span>DIÂMETRO</span>
+                    <strong>49.244 km</strong>
+                </div>
+                <div class="data-card">
+                    <span>DISTÂNCIA DO SOL</span>
+                    <strong>4.498 milhões km</strong>
+                </div>
+                <div class="data-card">
+                    <span>PERÍODO ORBITAL</span>
+                    <strong>60.190 dias</strong>
+                </div>
+                <div class="data-card">
+                    <span>GRAVIDADE</span>
+                    <strong>11,15 m/s²</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="day-section">
+            <div class="section-title">
+                <span>TEMPO E ROTAÇÃO</span>
+                <h2>Quanto dura um dia?</h2>
+                <p>Compare a duração do dia em Netuno com outros planetas do Sistema Solar.</p>
+            </div>
+
+            <div class="day-comparison">
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot mercury-dot"></span><h3>Mercúrio</h3></div>
+                    <div class="day-info"><strong>1.408 horas</strong><span>≈ 58,7 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar mercury-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot venus-dot"></span><h3>Vênus</h3></div>
+                    <div class="day-info"><strong>5.832 horas</strong><span>≈ 243 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar venus-bar"></div></div>
+                </div>
+                <div class="day-card earth-day-card">
+                    <div class="planet-name"><span class="planet-dot earth-dot"></span><h3>Terra</h3></div>
+                    <div class="day-info"><strong>24 horas</strong><span>1 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar earth-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot mars-dot"></span><h3>Marte</h3></div>
+                    <div class="day-info"><strong>24,6 horas</strong><span>≈ 1,03 dias terrestres</span></div>
+                    <div class="day-bar"><div class="bar mars-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot jupiter-dot"></span><h3>Júpiter</h3></div>
+                    <div class="day-info"><strong>10 horas</strong><span>≈ 0,42 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar jupiter-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot saturn-dot"></span><h3>Saturno</h3></div>
+                    <div class="day-info"><strong>11 horas</strong><span>≈ 0,46 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar saturn-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot uranus-dot"></span><h3>Urano</h3></div>
+                    <div class="day-info"><strong>17 horas</strong><span>≈ 0,71 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar uranus-bar"></div></div>
+                </div>
+                <div class="day-card">
+                    <div class="planet-name"><span class="planet-dot neptune-dot"></span><h3>Netuno</h3></div>
+                    <div class="day-info"><strong>16 horas</strong><span>≈ 0,67 dia terrestre</span></div>
+                    <div class="day-bar"><div class="bar neptune-bar"></div></div>
+                </div>
+            </div>
+
+            <div class="day-highlight">
+                <span>✨ COMPARAÇÃO</span>
+                <h3>Enquanto você vive 1 dia na Terra...</h3>
+                <p>Netuno gira em cerca de <strong>16 horas</strong>, tornando seu dia bem mais rápido que o terrestre.</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-text">
+                <span>CARACTERÍSTICAS</span>
+                <h2>O vento mais rápido</h2>
+                <p>Netuno abriga alguns dos ventos mais fortes do Sistema Solar, passando dos 2.000 km/h.</p>
+                <p>É um gigante de gelo com uma atmosfera cheia de tempestades e nuvens dinâmicas.</p>
+            </div>
+
+            <div class="facts">
+                <div class="fact">
+                    <div class="icon">🌪️</div>
+                    <div><h3>Ventos</h3><p>Os ventos em Netuno são os mais rápidos do Sistema Solar.</p></div>
+                </div>
+                <div class="fact">
+                    <div class="icon">❄️</div>
+                    <div><h3>Frio extremo</h3><p>Netuno é muito frio, com temperaturas que podem chegar a -220°C.</p></div>
+                </div>
+                <div class="fact">
+                    <div class="icon">🌀</div>
+                    <div><h3>Tempestades</h3><p>Grandes tempestades escuras se formam regularmente em sua atmosfera.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="curiosities">
+            <span>VOCÊ SABIA?</span>
+            <h2>Curiosidades sobre Netuno</h2>
+            <div class="curiosity-grid">
+                <article><h3>01</h3><p>Netuno foi descoberto através de cálculos matemáticos em 1846.</p></article>
+                <article><h3>02</h3><p>Ele tem 14 luas conhecidas, incluindo Tritão.</p></article>
+                <article><h3>03</h3><p>A sua cor azul é causada pelo metano e por outros componentes atmosféricos.</p></article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Astro<span>Vision</span></h2>
+        <p>Explore o universo. Descubra novos mundos.</p>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#solar-system">Sistema Solar</a>
+            <a href="../index.html#explore">Planetas</a>
+            <a href="../login/login.html">Login</a>
+        </div>
+        <p class="copy">© 2026 AstroVision</p>
+    </footer>
+
+    <script src="neptune.js"></script>
+</body>
+
+</html>

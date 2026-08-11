@@ -254,6 +254,7 @@ nav a:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 40px rgba(255, 170, 0, 0.7);
 }
+
 /* SOLAR SYSTEM */
 
 .solar-system {
@@ -888,9 +889,7 @@ footer p {
     box-shadow: 0 0 40px rgba(255, 170, 0, 0.7);
 }
 
-/* =========================================================
-   RESPONSIVIDADE COMPLETA — ASTRO VISION
-   ========================================================= */
+/*RESPONSIVIDADE COMPLETA — ASTRO VISION */
 
 /* Evita que elementos grandes criem rolagem horizontal */
 html,
@@ -939,14 +938,45 @@ img {
         height: min(900px, 90vw);
     }
 
-    .orbit1 { width: 20%; height: 20%; }
-    .orbit2 { width: 28%; height: 28%; }
-    .orbit3 { width: 37%; height: 37%; }
-    .orbit4 { width: 48%; height: 48%; }
-    .orbit5 { width: 60%; height: 60%; }
-    .orbit6 { width: 72%; height: 72%; }
-    .orbit7 { width: 84%; height: 84%; }
-    .orbit8 { width: 98%; height: 98%; }
+    .orbit1 {
+        width: 20%;
+        height: 20%;
+    }
+
+    .orbit2 {
+        width: 28%;
+        height: 28%;
+    }
+
+    .orbit3 {
+        width: 37%;
+        height: 37%;
+    }
+
+    .orbit4 {
+        width: 48%;
+        height: 48%;
+    }
+
+    .orbit5 {
+        width: 60%;
+        height: 60%;
+    }
+
+    .orbit6 {
+        width: 72%;
+        height: 72%;
+    }
+
+    .orbit7 {
+        width: 84%;
+        height: 84%;
+    }
+
+    .orbit8 {
+        width: 98%;
+        height: 98%;
+    }
 
     .planets-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1132,14 +1162,45 @@ img {
     }
 
     /* Órbitas proporcionais ao container */
-    .orbit1 { width: 20%; height: 20%; }
-    .orbit2 { width: 29%; height: 29%; }
-    .orbit3 { width: 38%; height: 38%; }
-    .orbit4 { width: 49%; height: 49%; }
-    .orbit5 { width: 61%; height: 61%; }
-    .orbit6 { width: 73%; height: 73%; }
-    .orbit7 { width: 85%; height: 85%; }
-    .orbit8 { width: 98%; height: 98%; }
+    .orbit1 {
+        width: 20%;
+        height: 20%;
+    }
+
+    .orbit2 {
+        width: 29%;
+        height: 29%;
+    }
+
+    .orbit3 {
+        width: 38%;
+        height: 38%;
+    }
+
+    .orbit4 {
+        width: 49%;
+        height: 49%;
+    }
+
+    .orbit5 {
+        width: 61%;
+        height: 61%;
+    }
+
+    .orbit6 {
+        width: 73%;
+        height: 73%;
+    }
+
+    .orbit7 {
+        width: 85%;
+        height: 85%;
+    }
+
+    .orbit8 {
+        width: 98%;
+        height: 98%;
+    }
 
     .sun {
         width: 58px;
@@ -1150,14 +1211,45 @@ img {
             0 0 80px #ff9800;
     }
 
-    .mercury { width: 10px; height: 10px; }
-    .venus   { width: 14px; height: 14px; }
-    .earth   { width: 16px; height: 16px; }
-    .mars    { width: 13px; height: 13px; }
-    .jupiter { width: 30px; height: 30px; }
-    .saturn  { width: 28px; height: 28px; }
-    .uranus  { width: 21px; height: 21px; }
-    .neptune { width: 21px; height: 21px; }
+    .mercury {
+        width: 10px;
+        height: 10px;
+    }
+
+    .venus {
+        width: 14px;
+        height: 14px;
+    }
+
+    .earth {
+        width: 16px;
+        height: 16px;
+    }
+
+    .mars {
+        width: 13px;
+        height: 13px;
+    }
+
+    .jupiter {
+        width: 30px;
+        height: 30px;
+    }
+
+    .saturn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .uranus {
+        width: 21px;
+        height: 21px;
+    }
+
+    .neptune {
+        width: 21px;
+        height: 21px;
+    }
 
     /* EXPLORE */
     .explore {
